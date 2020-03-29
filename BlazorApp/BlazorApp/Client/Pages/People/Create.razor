@@ -1,0 +1,34 @@
+﻿@page "/people/create"
+@inject HttpClient http
+@inject NavigationManager navigationManager
+@attribute [Authorize]
+
+
+@inject IAccessTokenProvider AuthenticationService
+
+<h3>Create</h3>
+
+<PersonForm ButtonText="Create Person" Person="@person"
+            OnValidSubmit="@CreatePerson" />
+
+@code {
+    Person person = new Person();
+
+    async Task CreatePerson()
+    {
+        var httpClient = new HttpClient();
+        httpClient.BaseAddress = new Uri(navigationManager.BaseUri);
+
+        var tokenResult = await AuthenticationService.RequestAccessToken();
+
+        if (tokenResult.TryGetToken(out var token))
+        {
+            httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {token.Value}");
+            await httpClient.PostJsonAsync("api/people", person);
+            navigationManager.NavigateTo("people");
+
+        }
+        //await http.PostJsonAsync("api/people", person);
+        //navigationManager.NavigateTo("people");
+    }
+}

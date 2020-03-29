@@ -1,0 +1,41 @@
+﻿@page "/people/edit/{personId:int}"
+@inject HttpClient http
+@inject NavigationManager navigationManager
+@attribute [Authorize]
+
+
+@inject IAccessTokenProvider AuthenticationService
+
+<h3>Edit</h3>
+
+<PersonForm ButtonText="Edit Person" Person="person"
+            OnValidSubmit="@EditPerson" />
+
+@code {
+    [Parameter] public int personId { get; set; }
+    Person person = new Person();
+
+    protected async override Task OnParametersSetAsync()
+    {
+        person = await http.GetJsonAsync<Person>($"api/people/{personId}");
+    }
+
+    async Task EditPerson()
+    {
+        var httpClient = new HttpClient();
+        httpClient.BaseAddress = new Uri(navigationManager.BaseUri);
+
+        var tokenResult = await AuthenticationService.RequestAccessToken();
+
+        if (tokenResult.TryGetToken(out var token))
+        {
+            httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {token.Value}");
+            await httpClient.PutJsonAsync("api/people", person);
+            navigationManager.NavigateTo("people");
+
+        }
+
+        //await http.PutJsonAsync("api/people", person);
+        //navigationManager.NavigateTo("people");
+    }
+}

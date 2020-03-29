@@ -1,0 +1,9 @@
+I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Shared\bin\Debug\netstandard2.1\BlazorApp.Shared.deps.json
+I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Shared\bin\Debug\netstandard2.1\BlazorApp.Shared.dll
+I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Shared\bin\Debug\netstandard2.1\BlazorApp.Shared.pdb
+I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Shared\obj\Debug\netstandard2.1\BlazorApp.Shared.AssemblyInfoInputs.cache
+I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Shared\obj\Debug\netstandard2.1\BlazorApp.Shared.AssemblyInfo.cs
+I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Shared\obj\Debug\netstandard2.1\BlazorApp.Shared.dll
+I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Shared\obj\Debug\netstandard2.1\BlazorApp.Shared.pdb
+I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Shared\obj\Debug\netstandard2.1\BlazorApp.Shared.csproj.CoreCompileInputs.cache
+I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Shared\obj\Debug\netstandard2.1\BlazorApp.Shared.csprojAssemblyReference.cache

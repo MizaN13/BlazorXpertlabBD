@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2DpqJ9xl2XxNtCR0X9GUlH2pHlfn03s3S3cEZtpRSC2PI0G9B4Mu4Ki8D3CV30SRoluTLDBb9R64m//7RnbXrw==",
+  "success": true,
+  "projectFilePath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\miZan\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
