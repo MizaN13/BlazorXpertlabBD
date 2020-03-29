@@ -84,6 +84,33 @@ namespace BlazorApp.Server.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("BlazorApp.Shared.Models.Country", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Countries");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Dominican Republic"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "United States"
+                        });
+                });
+
             modelBuilder.Entity("BlazorApp.Shared.Models.Person", b =>
                 {
                     b.Property<int>("Id")
@@ -98,9 +125,116 @@ namespace BlazorApp.Server.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("StateId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("StateId");
+
                     b.ToTable("People");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 6,
+                            Name = "Person 6",
+                            StateId = 1
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Person 7",
+                            StateId = 1
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Person 8",
+                            StateId = 1
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Name = "Person 9",
+                            StateId = 1
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Name = "Person 10",
+                            StateId = 1
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Name = "Person 11",
+                            StateId = 1
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Name = "Person 12",
+                            StateId = 1
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Name = "Person 13",
+                            StateId = 1
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Name = "Person 14",
+                            StateId = 1
+                        });
+                });
+
+            modelBuilder.Entity("BlazorApp.Shared.Models.State", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CountryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CountryId");
+
+                    b.ToTable("States");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CountryId = 1,
+                            Name = "Santo Domingo"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CountryId = 1,
+                            Name = "San Cristobal"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CountryId = 2,
+                            Name = "Vermont"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CountryId = 2,
+                            Name = "New York"
+                        });
                 });
 
             modelBuilder.Entity("IdentityServer4.EntityFramework.Entities.DeviceFlowCodes", b =>
@@ -318,6 +452,24 @@ namespace BlazorApp.Server.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens");
+                });
+
+            modelBuilder.Entity("BlazorApp.Shared.Models.Person", b =>
+                {
+                    b.HasOne("BlazorApp.Shared.Models.State", "State")
+                        .WithMany()
+                        .HasForeignKey("StateId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BlazorApp.Shared.Models.State", b =>
+                {
+                    b.HasOne("BlazorApp.Shared.Models.Country", "Country")
+                        .WithMany("States")
+                        .HasForeignKey("CountryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

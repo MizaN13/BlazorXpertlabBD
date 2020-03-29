@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ADVYBymtm7m4adga/qcq8JtpsRYNJTjYn36AZ5NjWNNDZU1+c9DaLGGHZLYqhgy88xcQAKPmO+8dUawDM/EUbQ==",
+  "dgSpecHash": "n78qLbyEkW1u8JtefieHcir2T+0rXgWwYLNCsTqpMUv+2xs5iXmKcpfcmwSJbj8e/tCfiOFzi34VF1Qwqg+/aA==",
   "success": true,
-  "projectFilePath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
+  "projectFilePath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miZan\\.nuget\\packages\\csvhelper\\12.1.2\\csvhelper.12.1.2.nupkg.sha512",
     "C:\\Users\\miZan\\.nuget\\packages\\markdig\\0.18.3\\markdig.0.18.3.nupkg.sha512",

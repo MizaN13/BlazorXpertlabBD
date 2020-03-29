@@ -39,7 +39,7 @@ namespace BlazorApp.Server.Controllers
         [AllowAnonymous]
         public async Task<ActionResult<Person>> Get(int id)
         {
-            return await context.People.FirstOrDefaultAsync(x => x.Id == id);
+            return await context.People.Include(x => x.State).FirstOrDefaultAsync(x => x.Id == id);
         }
         [HttpPost]
         public async Task<ActionResult> Post(Person person)

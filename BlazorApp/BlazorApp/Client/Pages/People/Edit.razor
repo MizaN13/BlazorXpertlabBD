@@ -8,12 +8,15 @@
 
 <h3>Edit</h3>
 
-<PersonForm ButtonText="Edit Person" Person="person"
-            OnValidSubmit="@EditPerson" />
+@if (person != null)
+{
+    <PersonForm ButtonText="Edit Person" Person="person"
+                OnValidSubmit="@EditPerson" />
+}
 
 @code {
     [Parameter] public int personId { get; set; }
-    Person person = new Person();
+    Person person;
 
     protected async override Task OnParametersSetAsync()
     {

@@ -1,6 +1,6 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Client\wwwroot\" />
-  <ContentRoot BasePath="/" Path="I:\XpertLab\XpertlabBlazor\BlazorApp\BlazorApp\Client\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="/" Path="I:\XpertLab\BlazorXpertlabBD\BlazorApp\BlazorApp\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="I:\XpertLab\BlazorXpertlabBD\BlazorApp\BlazorApp\Client\bin\Debug\netstandard2.1\wwwroot\" />
   <ContentRoot BasePath="/Identity" Path="C:\Users\miZan\.nuget\packages\microsoft.aspnetcore.identity.ui\3.1.0\staticwebassets\V4\" />
   <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\miZan\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\3.2.0-preview2.20160.5\build\..\staticwebassets\" />
 </StaticWebAssets>

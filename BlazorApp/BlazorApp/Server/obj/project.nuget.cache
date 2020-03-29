@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YuXxt9hF4+D6WUy7ovhLqdCSLpBhHKBtLJ7YyCfMZWQ1HcUI0nLtK/xR9kqK9M8HChdVS4QL7hNOHikVkpnICw==",
+  "dgSpecHash": "Y5kDDYOguflAKtRJot2mmxYStPhz6OsZSeIrcVqqISBuCYrTZURmEMJFjsh2SKNFQNpfY1dd6hHcZuqwekLzBw==",
   "success": true,
-  "projectFilePath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+  "projectFilePath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\miZan\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\miZan\\.nuget\\packages\\csvhelper\\12.1.2\\csvhelper.12.1.2.nupkg.sha512",

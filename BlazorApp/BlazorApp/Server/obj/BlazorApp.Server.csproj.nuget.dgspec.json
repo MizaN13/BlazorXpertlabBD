@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj": {}
+    "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj": {}
   },
   "projects": {
-    "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
+    "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
+        "projectUniqueName": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
         "projectName": "BlazorApp.Client",
-        "projectPath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
+        "projectPath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj",
         "packagesPath": "C:\\Users\\miZan\\.nuget\\packages\\",
-        "outputPath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Client\\obj\\",
+        "outputPath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
-                "projectPath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
+              "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
+                "projectPath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
               }
             }
           }
@@ -97,14 +97,14 @@
         }
       }
     },
-    "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj": {
+    "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+        "projectUniqueName": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
         "projectName": "BlazorApp.Server",
-        "projectPath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
+        "projectPath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Server\\BlazorApp.Server.csproj",
         "packagesPath": "C:\\Users\\miZan\\.nuget\\packages\\",
-        "outputPath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Server\\obj\\",
+        "outputPath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -125,11 +125,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
-                "projectPath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj"
+              "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj": {
+                "projectPath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Client\\BlazorApp.Client.csproj"
               },
-              "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
-                "projectPath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
+              "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
+                "projectPath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj"
               }
             }
           }
@@ -198,14 +198,14 @@
         }
       }
     },
-    "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
+    "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
+        "projectUniqueName": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
         "projectName": "BlazorApp.Shared",
-        "projectPath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
+        "projectPath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Shared\\BlazorApp.Shared.csproj",
         "packagesPath": "C:\\Users\\miZan\\.nuget\\packages\\",
-        "outputPath": "I:\\XpertLab\\XpertlabBlazor\\BlazorApp\\BlazorApp\\Shared\\obj\\",
+        "outputPath": "I:\\XpertLab\\BlazorXpertlabBD\\BlazorApp\\BlazorApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
